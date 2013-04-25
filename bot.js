@@ -54,7 +54,7 @@ board.on("ready", function() {
 });
 
 go = function(x,y,z) {
-   angles = ik.delta_calcInverse(x,y,z);
+   angles = ik.inverse(x,y,z);
    s1.move(angles[1]);
    s2.move(angles[2]);
    s3.move(angles[3]);
