@@ -60,21 +60,3 @@ go = function(x,y,z) {
   s3.move(angles[3]);
   console.log(angles);
 }
-
-start_angry_birds_app = function(){
-  go(-18,13,-145);
-  go(-18,13,-157);
-  go(-18,13,-145);
-}
-
-throw_bird = function(){
-  go(-67,23,-137);
-  go(-67,23,-157);
-  go(-67,23,-137);
-}
-
-repeat_level = function(){
-  go(-30,-45,-130);
-  go(-30,-45,-155);
-  go(-30,-45,-130);
-}
